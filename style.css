@@ -39,6 +39,12 @@ body {
 
 .main {
   width: 500px;
+  
+}
+
+.main2 {
+  margin-top: 40px;
+  width: 350px;
 }
 
 .home {
@@ -46,6 +52,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .image-cover {
@@ -99,4 +106,45 @@ li {
 .title {
   font-size: 40px;
   font-weight: 600;
+}
+.title2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h5 {
+  color: #ff4000;
+  opacity: .2;
+  font-size: 120px;
+  font-weight: 700;
+  padding: 40px 30px 150px 30px;
+  background-color: #ffb8a1;
+}
+
+.main2 > p {
+  width: 250px;
+}
+
+.drawing > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: -140px;
+
+}
+
+h6 {
+  font-size: 30px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: #ff7a4e;
+  margin: 10px;
+  padding: 10px 35px;
+  z-index: 999;
 }
