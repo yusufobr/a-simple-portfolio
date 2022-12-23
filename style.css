@@ -165,7 +165,7 @@ a {
   font-size: 35px;
   font-weight: 300;
   color: #ff4000;
-  text-decoration:none;
+  text-decoration: none;
   font-weight: 500;
 }
 .project {
@@ -190,4 +190,13 @@ a {
 }
 .mt {
   transform: translateY(-60px);
+}
+.col {
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  width: 50%;
 }
