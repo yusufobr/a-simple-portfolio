@@ -36,10 +36,8 @@ body {
   margin: 50px auto;
 }
 
-
 .main {
   width: 500px;
-  
 }
 
 .main2 {
@@ -76,13 +74,12 @@ body {
 }
 
 button {
-  background:none;
+  background: none;
   padding: 5px;
   border-color: #ff7142;
   font-weight: 600;
   color: #5d5d5d;
 }
-
 
 li {
   list-style-type: none;
@@ -102,7 +99,6 @@ li {
   justify-content: space-around;
 }
 
-
 .title {
   font-size: 40px;
   font-weight: 600;
@@ -120,7 +116,7 @@ li {
 
 h5 {
   color: #ff4000;
-  opacity: .2;
+  opacity: 0.2;
   font-size: 120px;
   font-weight: 700;
   padding: 40px 30px 150px 30px;
@@ -136,7 +132,6 @@ h5 {
   flex-direction: row;
   align-items: flex-end;
   margin-top: -140px;
-
 }
 
 h6 {
@@ -147,4 +142,17 @@ h6 {
   margin: 10px;
   padding: 10px 35px;
   z-index: 999;
+}
+th {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+  padding: 1.2rem 20px 0.9rem 20px;
+}
+a {
+  font-size: 35px;
+  font-weight: 300;
+}
+.main3 {
+  text-align: center;
 }
